@@ -1,0 +1,12 @@
+library(rJava)
+.jinit()
+.jaddClassPath("E:\\BigData\\JavaR\\test\\bin")
+myMain <- .jnew("test/Main")
+
+stringTest <- .jcall(myMain, "S", "getString")
+stringArrayTest <- .jcall(myMain, "[S", "getStringArray")
+doubleArrayTest <- .jcall(myMain, "[D", "getdoubleArray")
+doubleTest <- .jcall(myMain, "D", "getdouble")
+intArrayTest <- .jcall(myMain, "[I", "getIntArray")
+booleanTest <- .jcall(myMain, "Z", "getboolean")
+drawDatas <- .jcall(myMain, "[D", "datas")
