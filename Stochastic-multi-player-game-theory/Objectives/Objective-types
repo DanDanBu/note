@@ -1,0 +1,26 @@
+We require that the set C of colours the objectives refers to is finite
+
+Reachability objective : The objective requires that a good colour is seen at least once.
+
+Safety objective : The objective requires that only a good colours are seen.
+
+Büchi objective : requires that a good colour is seen finitely often.
+
+co-Büchi objective : the objective requires that from some point onwards only good colours are seen.
+
+Parity objective: Is given by a priority function, {0 ... d}. The objective requires that the least priority that occurs infinitely
+                  often is even.
+                  
+Streett objective : The objective requires that, for each of the pairs, if a colour on the left-hand side is seen infi nitely often, 
+                  then so is a colour on the right-hand side of this pair.
+                  
+Rabin objective : The objective requires that for some pair a colour on the left-hand side is seen infinitely often while all 
+                  colours on the right-hand side of this pair are seen only fi nitely often.
+                  
+Muller objective :  it requires that the set of colours seen infi nitely often equals one of these accepting sets.
+
+
+Actually, we know that if we make an addition on players. 
+What we sure is that we can discuss about objectives for SMGs to security issues.
+
+We have Streett, Rabin, and Muller objectives to make our player decision more diversified.

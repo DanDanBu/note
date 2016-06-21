@@ -1,0 +1,13 @@
+Nash eqilibrium is a basic important property of game theory.
+While there's a game happen, every player will choose the best response in this game.
+
+In a Nash equilibrium, no player can improve it's payoff by unilaterally switching to a different strategy.
+In fact, to have a Nash equilibrium, it suffices that no player can gain from switching to a pure strategy.
+
+
+What I'm going to figure out is that how can we find an equilibrium for multiplayer games.
+It might be more higher complexity if conditions are less given.
+
+Simply, we can talk about two players game first. 
+In two players situation, Nash equilibrium is just a pair of optimal strategies.
+
